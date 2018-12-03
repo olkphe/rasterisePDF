@@ -8,8 +8,9 @@ If you have a digitally secured PDF and having issue printing it, you might cons
 gswin64c.exe -sDEVICE=pdfwrite -sOutputFile=output.pdf -dBATCH -dNOPAUSE input.pdf
 ```
 
-## C#
+## C# Console Source Code Sample
 ```C#
+using System.Diagnostics;
 ProcessStartInfo startInfo = new ProcessStartInfo();
 startInfo.CreateNoWindow = false;
 startInfo.UseShellExecute = false;
